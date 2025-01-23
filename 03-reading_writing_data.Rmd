@@ -59,7 +59,7 @@ to import all the datasets in a single directory at once. For this, you first ne
 paths <- Sys.glob("datasets/unemployment/*.csv")
 ```
 
-`Sys.glob()` allows you to find files using a regular expression. "datasets/unemployment/*.csv"
+`Sys.glob()` allows you to find files using wildcards. "datasets/unemployment/*.csv"
 matches all the `.csv` files inside the "datasets/unemployment/" folder.
 
 ```{r}
